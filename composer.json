@@ -1,0 +1,20 @@
+{
+    "name": "testdev/promain",
+    "autoload": {
+        "psr-4": {
+            "Testdev\\Promain\\": "src/",
+            "Core\\":"src/core",
+            "App\\":"src/App"
+        }
+    },
+    "authors": [
+        {
+            "name": "reza954",
+            "email": "163922060+reza954@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "jenssegers/blade": "^2.0",
+        "twig/twig": "^3.8"
+    }
+}
